@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>TASK 5</h1>
+    <h1>Registration Form</h1>
+
+    <form action="submit_registration.php" method="post">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="repassword">Re-enter Password:</label>
+        <input type="password" id="repassword" name="repassword" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label>Languages Known:</label>
+        <input type="checkbox" id="english" name="languages[]" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="spanish" name="languages[]" value="Kannada">
+        <label for="spanish">Kannada</label>
+        <input type="checkbox" id="Hindi" name="languages[]" value="Hindi">
+        <label for="french">Hindi</label>
+        <input type="checkbox" id="Telugu" name="languages[]" value="Telugu">
+        <label for="french">Telugu</label><br><br>
+
+        <input type="checkbox" id="declaration" name="declaration" required>
+        <label for="declaration">I hereby declare that all the given details are true.</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+
+</body>
+</html>
