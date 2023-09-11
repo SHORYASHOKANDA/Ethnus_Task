@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 120px;
+        margin: 150px;
+        width: 50vw;
+        gap: 20px;
+    }
+    ul{
+        list-style: none;
+
+    }
+    .vnav ul{
+        padding:10px;
+        background-color:lightblue ;
+        color: darkblue;
+        font-size:3vw;
+        font-weight: 500;
+        text-align: left;
+    }
+    .vnav ul li:hover{
+        color: white;
+        background-color: goldenrod;
+        cursor: pointer;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .vnav{
+        border: 2px black solid;
+        width: 20vw;
+       position: absolute;
+        margin-left:-50vw ;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+
+    }
+    .hnav ul li{
+
+     
+     justify-content: center;
+        
+
+    }
+    .hnav ul{
+        width: 30vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        display:flex;
+     align-items: center;
+     justify-content: center; 
+     flex-direction: row;
+        font-size:2vw;
+        text-align: center;
+        font-weight: 500;
+        
+        background-color:lightgray;
+        
+        
+    }
+    .hnav ul li:hover{
+        color: black;
+        background-color:gray;
+        cursor: pointer;
+    }
+    .hnav{
+        
+       margin: auto;
+       padding: auto;
+       display: flex;
+       position: relative;
+       left: 25vw;
+        
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="vnav">
+            <nav>
+                <ul>
+                    <li>Home </li>
+                    <li>Java</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </nav>
+        </div>
+        
+    </div>
+    <div class="hnav">
+        <nav>
+            <ul>
+                <li>Home |</li>
+                <li>Java |</li>
+                <li>CSS |</li>
+                <li>HTML |</li>
+                <li>Bootstrap |</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
