@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 3</title>
+    <style>
+        table{
+            max-width: 60vw;
+            border-collapse: collapse;
+            margin-left: 250px;
+            position: absolute;
+            top: 25vh;
+            border: 2px groove;
+            
+        }
+        tr{
+            border: 2px groove white;
+        }
+        .main{
+            color: white;
+            font-size: 1.5vw;
+            
+            background-color: rgb(18, 161, 18);
+        }
+        .fir{
+            width: 40vw;
+            padding-left: 10px;
+        }
+        .sec{
+            width: 18vw;
+            
+            
+        }
+        .dark{
+            background-color: lightgray;
+            font-size: 1.2vw;
+            padding: 5px;
+            
+        }
+        .light{
+            background-color: whitesmoke;
+            font-size: 1.2vw;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="main">
+            <td class="fir">Company </td>
+            <td class="sec"> Contact</td>
+            <td class="sec">Country</td>
+        </tr>
+        <tr class="dark">
+            <td class="fir">Alfeds Futterkiste </td>
+            <td class="sec" >Maria Anders </td>
+            <td class="sec">Germany</td>
+        </tr>
+        <tr class="light">
+            <td class="fir">Berglunds snabbop </td>
+            <td class="sec">Christina Berglund</td>
+            <td class="sec">Sweden</td>
+        </tr>
+        <tr class="dark">
+            <td class="fir">Centro Conmerical moctezuma</td>
+            <td class="sec">Franciso Chang</td>
+            <td class="sec">Mexico </td>
+        </tr>
+        <tr class="light">
+            <td class="fir" >Ernst Handele</td>
+            <td class="sec">Roland Mendel</td>
+            <td class="sec"> Austria</td>
+        </tr>
+        <tr class="dark">
+            <td class="fir">Island Trading</td>
+            <td class="sec">Helen Bennett</td>
+            <td class="sec">UK</td>
+        </tr>
+        <tr class="light" >
+            <td class="fir">Konilich Essen</td>
+            <td class="sec">Philip Cramer</td>
+            <td class="sec">Germany</td>
+        </tr>
+        <tr class="dark">
+            <td class="fir">Lauching Bacchus Wincellers</td>
+            <td class="sec">Yoshi Tannamuri</td>
+            <td class="sec">Canada</td>
+        </tr>
+        <tr class="light">
+            <td class="fir"> Magazzini Alimentari Riuniti</td>
+            <td class="sec">Giovanni Rovelli</td>
+            <td class="sec">Italy</td>
+        </tr>
+    </table>
+</body>
+</html>
